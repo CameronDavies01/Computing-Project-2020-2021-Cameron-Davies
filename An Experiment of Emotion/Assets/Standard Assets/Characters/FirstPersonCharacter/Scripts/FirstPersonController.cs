@@ -28,6 +28,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
         [SerializeField] private AudioClip m_JumpSound;           // the sound played when character leaves the ground.
         [SerializeField] private AudioClip m_LandSound;           // the sound played when character touches back on ground.
 
+        public int Check;
+        public GameObject Logo;
+
         private Camera m_Camera;
         private bool m_Jump;
         private float m_YRotation;
@@ -56,11 +59,25 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_AudioSource = GetComponent<AudioSource>();
 			m_MouseLook.Init(transform , m_Camera.transform);
         }
-
-
         // Update is called once per frame
         private void Update()
         {
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                if (Check == 0)
+                {
+                    Logo.SetActive(false);
+                    Check = 1;
+                    Time.timeScale = 1;
+                }
+                else
+                {
+                    Logo.SetActive(true);
+                    Check = 0;
+                    Time.timeScale = 0;
+                }
+            }
+
             RotateView();
             // the jump state needs to read here to make sure it is not missed
             if (!m_Jump)
@@ -80,7 +97,17 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 m_MoveDir.y = 0f;
             }
 
-            m_PreviouslyGrounded = m_CharacterController.isGrounded;
+            m_PreviouslyGrounded = m_CharacterController.isGrounded;  
+        }
+
+        private void OnTriggerEnter(Collider other)
+        {
+            if (other.tag == "FreedomArcOne")
+            {
+                m_WalkSpeed = 100;
+                m_RunSpeed = 10;
+                m_JumpSpeed = 50;
+            }
         }
 
 

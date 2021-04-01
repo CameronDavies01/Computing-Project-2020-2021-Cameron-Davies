@@ -1,0 +1,35 @@
+# Blender MTL File: 'ChocolateBar.blend'
+# Material Count: 3
+
+newmtl ChocolateBar.001
+Ns 323.999994
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\camer\\Desktop\\Computing-Project-2020-2021-Cameron-Davies\\An Experiment of Emotion\\Assets\\Textures\\CHOCOLATE.png
+
+newmtl ChocolateBar.002
+Ns 323.999994
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\camer\\Desktop\\Computing-Project-2020-2021-Cameron-Davies\\An Experiment of Emotion\\Assets\\Textures\\FlavorTownTex.png
+
+newmtl ChocolatePackage
+Ns 323.999994
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\camer\\Desktop\\Computing-Project-2020-2021-Cameron-Davies\\An Experiment of Emotion\\Assets\\Textures\\CHOCOLATE.png

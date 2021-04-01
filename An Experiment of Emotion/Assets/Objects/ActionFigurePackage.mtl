@@ -1,0 +1,43 @@
+# Blender MTL File: 'ActionFigurePackage.blend'
+# Material Count: 4
+
+newmtl ActionFigureBox
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.024158 0.031896 0.266356
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl ActionFigureBox2
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.036889 0.287441 0.052861
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Glass
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Logo
+Ns 323.999994
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\camer\\Desktop\\Computing-Project-2020-2021-Cameron-Davies\\An Experiment of Emotion\\Assets\\Textures\\WarHeroes.png
