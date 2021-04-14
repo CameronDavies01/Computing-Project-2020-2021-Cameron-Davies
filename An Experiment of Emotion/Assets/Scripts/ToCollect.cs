@@ -28,7 +28,7 @@ public class ToCollect : MonoBehaviour
             this.gameObject.SetActive(false);
 
             if (collecting.CoinsLeft == 0){
-                SceneManager.LoadScene("Fear");
+                SceneManager.LoadScene("Confusion 1");
             }
         }
     }

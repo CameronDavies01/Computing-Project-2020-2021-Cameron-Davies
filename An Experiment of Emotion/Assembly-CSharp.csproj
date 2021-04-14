@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\AllSkyFree\AllSkyFree_Menu.cs" />
+    <Compile Include="Assets\NonEuclidean.cs" />
     <Compile Include="Assets\Scripts\Collecting.cs" />
     <Compile Include="Assets\Scripts\CozyToSad.cs" />
     <Compile Include="Assets\Scripts\EnemyAI1.cs" />

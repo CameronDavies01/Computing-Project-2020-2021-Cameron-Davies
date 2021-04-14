@@ -20,7 +20,7 @@ public class ToFear6 : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            SceneManager.LoadScene("Fear 5");
+            SceneManager.LoadScene("Confusion 6");
         }
     }
 }
