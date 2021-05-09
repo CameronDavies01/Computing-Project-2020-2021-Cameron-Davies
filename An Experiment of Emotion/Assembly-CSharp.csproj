@@ -63,7 +63,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\AllSkyFree\AllSkyFree_Menu.cs" />
+    <Compile Include="Assets\BitCollect.cs" />
+    <Compile Include="Assets\BitCount.cs" />
+    <Compile Include="Assets\CakeLevelNext.cs" />
+    <Compile Include="Assets\DrawCOllect.cs" />
+    <Compile Include="Assets\DrawingCollect.cs" />
+    <Compile Include="Assets\MainMenuScript.cs" />
     <Compile Include="Assets\NonEuclidean.cs" />
     <Compile Include="Assets\Scripts\Collecting.cs" />
     <Compile Include="Assets\Scripts\CozyToSad.cs" />

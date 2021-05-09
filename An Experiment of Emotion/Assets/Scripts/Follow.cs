@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
 
 public class Follow : MonoBehaviour
 {
+    public AudioSource JumpScare;
     [SerializeField] private Transform Target;
     [SerializeField] private Transform respawnPoint;
 
@@ -30,8 +32,14 @@ public class Follow : MonoBehaviour
     }
     void OnTriggerEnter(Collider other)
     {
+        JumpScare.Play();
         SceneManager.LoadScene("Boredom");
-
+        StartCoroutine(DelayAction(100));
+        MonolithRespawn.transform.position = new Vector3(445, 20, 75);
+    }
+    IEnumerator DelayAction(float delayTime)
+    {
+        yield return new WaitForSeconds(100);
         MonolithRespawn.transform.position = new Vector3(445, 20, 75);
     }
 }

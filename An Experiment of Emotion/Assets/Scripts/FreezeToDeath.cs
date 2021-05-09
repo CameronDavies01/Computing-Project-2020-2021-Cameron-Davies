@@ -174,7 +174,7 @@ public class FreezeToDeath : MonoBehaviour
         }
         if (timeRemaining < 0)
         {
-            SceneManager.LoadScene("On Edge");
+            SceneManager.LoadScene("Sad");
         }
 
         if (timeRemaining > 0)
