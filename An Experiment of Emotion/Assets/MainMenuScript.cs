@@ -30,7 +30,7 @@ public class MainMenuScript : MonoBehaviour
         Button5.onClick.AddListener(Level5);
         Button6.onClick.AddListener(Level6);
         Button7.onClick.AddListener(Level7);
-        Button8.onClick.AddListener(Level9);
+        Button8.onClick.AddListener(Level8);
         Button9.onClick.AddListener(Level9);
         Button10.onClick.AddListener(Level10);
     }
