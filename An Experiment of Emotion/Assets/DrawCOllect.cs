@@ -26,7 +26,7 @@ public class DrawCOllect : MonoBehaviour
             DrawingPresent = DrawingPresent + 1;
             if (drawingCollect.DrawLeft == 0)
             {
-                SceneManager.LoadScene("Nostalgia");
+                SceneManager.LoadScene("Frustration");
             }
             if (DrawingPresent == 1)
             {

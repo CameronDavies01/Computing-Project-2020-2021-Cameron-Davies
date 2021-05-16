@@ -9,7 +9,7 @@ public class CakeLevelNext : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            SceneManager.LoadScene("Sad");
+            SceneManager.LoadScene("Nostalgia");
         }
     }
 }
